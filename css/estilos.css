@@ -1,0 +1,28 @@
+.header{
+    width: 100vw;
+    height: 5rem;
+    background-color: #b40001;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 2rem; /* desde la izquierda a la derecha */
+
+}
+
+header nav ul{
+    display: flex;
+    order: 2;
+    /* text-decoration-line: none;
+    color:rgb(255, 255, 255); */
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+header nav ul li a{
+    text-decoration-line: none;
+    color:rgb(255, 255, 255);
+    justify-content: space-between;
+}
